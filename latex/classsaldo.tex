@@ -1,0 +1,160 @@
+\hypertarget{classsaldo}{}\section{saldo Class Reference}
+\label{classsaldo}\index{saldo@{saldo}}
+
+
+nowy obiekt  
+
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classsaldo_a617c8b0acdc5eb26c14f9af32e90470c}{saldo} ()
+\begin{DoxyCompactList}\small\item\em konstruktor \end{DoxyCompactList}\item 
+void \hyperlink{classsaldo_a25d8b15abd41ecd9bc358e2bf102018c}{pokaz\+\_\+salda} ()
+\begin{DoxyCompactList}\small\item\em funkcja pokazujaca stan aktualny salda \end{DoxyCompactList}\item 
+void \hyperlink{classsaldo_a98b3fbfb98e5725dd69027a58a213498}{przelicz} (int ind, double kw)
+\begin{DoxyCompactList}\small\item\em zaprzyjaznienie \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+double \hyperlink{classsaldo_abd8845ce94069af37be227ab71b038e9}{saldo\+\_\+glowne}
+\item 
+double \hyperlink{classsaldo_a665a791a5ed810485df4a9e2ddf31d93}{salda} \mbox{[}8\mbox{]}
+\begin{DoxyCompactList}\small\item\em saldo ogolne \end{DoxyCompactList}\item 
+double \hyperlink{classsaldo_a7a7b00d8994a0322418f92436753164e}{wydatki} \mbox{[}8\mbox{]}
+\begin{DoxyCompactList}\small\item\em tablica poszczegolnych sald kazdej kategorii \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{classsaldo_ae66f6b31b5ad750f1fe042a706a4e3d4}{main} ()
+\begin{DoxyCompactList}\small\item\em main \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+nowy obiekt 
+
+klasa saldo 
+
+Definition at line 43 of file main.\+cpp.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classsaldo_a617c8b0acdc5eb26c14f9af32e90470c}{}\index{saldo@{saldo}!saldo@{saldo}}
+\index{saldo@{saldo}!saldo@{saldo}}
+\subsubsection[{saldo}]{\setlength{\rightskip}{0pt plus 5cm}saldo\+::saldo (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\label{classsaldo_a617c8b0acdc5eb26c14f9af32e90470c}
+
+
+konstruktor 
+
+wydatki z poszczegiolnych kategorii 
+
+Definition at line 50 of file main.\+cpp.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classsaldo_a25d8b15abd41ecd9bc358e2bf102018c}{}\index{saldo@{saldo}!pokaz\+\_\+salda@{pokaz\+\_\+salda}}
+\index{pokaz\+\_\+salda@{pokaz\+\_\+salda}!saldo@{saldo}}
+\subsubsection[{pokaz\+\_\+salda}]{\setlength{\rightskip}{0pt plus 5cm}void saldo\+::pokaz\+\_\+salda (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\label{classsaldo_a25d8b15abd41ecd9bc358e2bf102018c}
+
+
+funkcja pokazujaca stan aktualny salda 
+
+wyswietlenie salda konkretnych kategorii 
+
+Definition at line 57 of file main.\+cpp.
+
+\hypertarget{classsaldo_a98b3fbfb98e5725dd69027a58a213498}{}\index{saldo@{saldo}!przelicz@{przelicz}}
+\index{przelicz@{przelicz}!saldo@{saldo}}
+\subsubsection[{przelicz}]{\setlength{\rightskip}{0pt plus 5cm}void saldo\+::przelicz (
+\begin{DoxyParamCaption}
+\item[{int}]{ind, }
+\item[{double}]{kw}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\label{classsaldo_a98b3fbfb98e5725dd69027a58a213498}
+
+
+zaprzyjaznienie 
+
+funkcja przeliczajca stany sald jezeli indeks kategorii jest wiekszy od 0
+
+do wydatkow kategorii dodajemy kwote wydana
+
+w saldzie kategorii odejmujemy kwote wydana
+
+saldo ogolne zmniejszamy o kwote wydana
+
+jezeli indeks kategorii jest rowny 0
+
+dodajemy wplate do salda glownego
+
+w przeciwnym wypadku pokaz blad 
+
+Definition at line 70 of file main.\+cpp.
+
+
+
+\subsection{Friends And Related Function Documentation}
+\hypertarget{classsaldo_ae66f6b31b5ad750f1fe042a706a4e3d4}{}\index{saldo@{saldo}!main@{main}}
+\index{main@{main}!saldo@{saldo}}
+\subsubsection[{main}]{\setlength{\rightskip}{0pt plus 5cm}int main (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [friend]}}\label{classsaldo_ae66f6b31b5ad750f1fe042a706a4e3d4}
+
+
+main 
+
+nazwy wszystkich kategorii wedlug indeksow
+
+petla nieskonczona 
+
+Definition at line 152 of file main.\+cpp.
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classsaldo_a665a791a5ed810485df4a9e2ddf31d93}{}\index{saldo@{saldo}!salda@{salda}}
+\index{salda@{salda}!saldo@{saldo}}
+\subsubsection[{salda}]{\setlength{\rightskip}{0pt plus 5cm}double saldo\+::salda\mbox{[}8\mbox{]}}\label{classsaldo_a665a791a5ed810485df4a9e2ddf31d93}
+
+
+saldo ogolne 
+
+
+
+Definition at line 47 of file main.\+cpp.
+
+\hypertarget{classsaldo_abd8845ce94069af37be227ab71b038e9}{}\index{saldo@{saldo}!saldo\+\_\+glowne@{saldo\+\_\+glowne}}
+\index{saldo\+\_\+glowne@{saldo\+\_\+glowne}!saldo@{saldo}}
+\subsubsection[{saldo\+\_\+glowne}]{\setlength{\rightskip}{0pt plus 5cm}double saldo\+::saldo\+\_\+glowne}\label{classsaldo_abd8845ce94069af37be227ab71b038e9}
+
+
+Definition at line 46 of file main.\+cpp.
+
+\hypertarget{classsaldo_a7a7b00d8994a0322418f92436753164e}{}\index{saldo@{saldo}!wydatki@{wydatki}}
+\index{wydatki@{wydatki}!saldo@{saldo}}
+\subsubsection[{wydatki}]{\setlength{\rightskip}{0pt plus 5cm}double saldo\+::wydatki\mbox{[}8\mbox{]}}\label{classsaldo_a7a7b00d8994a0322418f92436753164e}
+
+
+tablica poszczegolnych sald kazdej kategorii 
+
+
+
+Definition at line 48 of file main.\+cpp.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{main_8cpp}{main.\+cpp}\end{DoxyCompactItemize}
